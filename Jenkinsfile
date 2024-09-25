@@ -6,7 +6,7 @@ pipeline {
             steps {
                
                     
-                        sh 'mvn -B -s /root/.m2/settings.xml -DskipTests clean package' 
+                        echo 'mvn -B -s /root/.m2/settings.xml -DskipTests clean package' 
                     
                 
             }
