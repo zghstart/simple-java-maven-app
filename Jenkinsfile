@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker {
+        dockerContainer {
             image 'dockerproxy.cn/maven:3.8.5-openjdk-11' 
             args '-v /home/maven:/root/.m2' 
         }
